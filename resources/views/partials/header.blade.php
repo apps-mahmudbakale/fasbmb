@@ -46,23 +46,14 @@
             <!-- /.navbar-nav -->
           </div>
           <!-- /.navbar-collapse -->
-{{--           <div class="navbar-other w-100 d-flex ms-auto">
+          <div class="navbar-other w-100 d-flex ms-auto">
             <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
-              <li class="nav-item">
-                <nav class="nav social social-muted justify-content-end text-end">
-                  <a href="#"><i class="uil uil-twitter"></i></a>
-                  <a href="#"><i class="uil uil-facebook-f"></i></a>
-                  <a href="#"><i class="uil uil-dribbble"></i></a>
-                  <a href="#"><i class="uil uil-instagram"></i></a>
-                </nav>
-                <!-- /.social -->
-              </li>
               <li class="nav-item d-lg-none">
                 <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
               </li>
             </ul>
             <!-- /.navbar-nav -->
-          </div> --}}
+          </div>
           <!-- /.navbar-other -->
         </div>
         <!-- /.container -->
