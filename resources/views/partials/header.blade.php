@@ -23,7 +23,7 @@
              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"><i class="fa fa-gavel"></i> Laws</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="">Consititution</a></li>
-                 <li class="nav-item"><a class="dropdown-item" href="">Statues & By-Laws</a></li>
+                 <li class="nav-item"><a class="dropdown-item" href="">Statutes & By-Laws</a></li>
                </ul>
              </li>
 
