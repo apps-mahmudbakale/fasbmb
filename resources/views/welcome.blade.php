@@ -81,20 +81,20 @@
         <div class="carousel owl-carousel blog grid-view mb-17 mb-md-20" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
           <div class="item">
             <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="./assets/img/photos/b4.jpg" alt="" /></a>
+              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="{{asset('img/journal.png')}}" alt="" /></a>
                 <figcaption>
                   <h5 class="from-top mb-0">Read More</h5>
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="./blog-post.html">Ligula tristique quis risus</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Ligula tristique quis risus</a></h2>
               </div>
               <!-- /.post-header -->
               <div class="post-footer">
-                <ul class="post-meta">
+                {{-- <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2021</span></li>
                   <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
-                </ul>
+                </ul> --}}
                 <!-- /.post-meta -->
               </div>
               <!-- /.post-footer -->
@@ -104,20 +104,20 @@
           <!-- /.item -->
           <div class="item">
             <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="./assets/img/photos/b5.jpg" alt="" /></a>
+              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="{{asset('img/journal.png')}}" alt="" /></a>
                 <figcaption>
                   <h5 class="from-top mb-0">Read More</h5>
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="./blog-post.html">Nullam id dolor elit id nibh</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Nullam id dolor elit id nibh</a></h2>
               </div>
               <!-- /.post-header -->
               <div class="post-footer">
-                <ul class="post-meta">
+                {{-- <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2021</span></li>
                   <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Workspace</a></li>
-                </ul>
+                </ul> --}}
                 <!-- /.post-meta -->
               </div>
               <!-- /.post-footer -->
@@ -127,20 +127,20 @@
           <!-- /.item -->
           <div class="item">
             <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="./assets/img/photos/b6.jpg" alt="" /></a>
+              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="{{asset('img/journal.png')}}" alt="" /></a>
                 <figcaption>
                   <h5 class="from-top mb-0">Read More</h5>
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="./blog-post.html">Ultricies fusce porta elit</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Ultricies fusce porta elit</a></h2>
               </div>
               <!-- /.post-header -->
               <div class="post-footer">
-                <ul class="post-meta">
+                {{-- <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2021</span></li>
                   <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
-                </ul>
+                </ul> --}}
                 <!-- /.post-meta -->
               </div>
               <!-- /.post-footer -->
@@ -150,19 +150,19 @@
           <!-- /.item -->
           <div class="item">
             <article>
-              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="./assets/img/photos/b7.jpg" alt="" /></a>
+              <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="{{asset('img/journal.png')}}" alt="" /></a>
                 <figcaption>
                   <h5 class="from-top mb-0">Read More</h5>
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="./blog-post.html">Morbi leo risus porta eget</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Morbi leo risus porta eget</a></h2>
               </div>
               <div class="post-footer">
-                <ul class="post-meta">
+               {{--  <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2021</span></li>
                   <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Business Tips</a></li>
-                </ul>
+                </ul> --}}
                 <!-- /.post-meta -->
               </div>
               <!-- /.post-footer -->
@@ -175,7 +175,7 @@
         <!--/.row -->
         <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
           <div class="col-lg-6">
-            <figure><img class="w-auto" src="./assets/img/illustrations/3d3.png" srcset="./assets/img/illustrations/3d3@2x.png 2x" alt="" /></figure>
+            <figure><img class="w-auto" src="{{asset('img/illustrations/3d3.png')}}" srcset="{{asset('img/illustrations/3d3@2x.png')}}" alt="" /></figure>
           </div>
           <!--/column -->
           <div class="col-lg-5 offset-lg-1">
@@ -183,16 +183,16 @@
             <h3 class="display-4 mb-8">Got any questions? Don't hesitate to get in touch.</h3>
             <div class="d-flex flex-row">
               <div>
-                <img src="./assets/img/icons/solid/pin.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
+                <img src="{{asset('img/icons/solid/pin.svg')}}" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
               </div>
               <div>
                 <h5 class="mb-0">Address</h5>
-                <address>Moonshine St. 14/05 Light City, London</address>
+                <address>Address</address>
               </div>
             </div>
             <div class="d-flex flex-row">
               <div>
-                <img src="./assets/img/icons/solid/rotary.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
+                <img src="{{asset('img/icons/solid/rotary.svg')}}" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
               </div>
               <div>
                 <h5 class="mb-0">Phone</h5>
@@ -201,11 +201,11 @@
             </div>
             <div class="d-flex flex-row">
               <div>
-                <img src="./assets/img/icons/solid/emails.svg" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
+                <img src="{{asset('img/icons/solid/emails.svg')}}" class="svg-inject icon-svg icon-svg-xs solid-duo text-grape-fuchsia mt-1 me-4" style="width: 1.5rem; height: 1.5rem;" alt="" />
               </div>
               <div>
                 <h5 class="mb-0">E-mail</h5>
-                <p class="mb-0"><a href="mailto:sandbox@email.com" class="link-body">sandbox@email.com</a></p>
+                <p class="mb-0"><a href="mailto:mail@email.com" class="link-body">mail@email.com</a></p>
               </div>
             </div>
           </div>

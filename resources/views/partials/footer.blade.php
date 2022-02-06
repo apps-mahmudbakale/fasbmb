@@ -1,11 +1,11 @@
-  <footer class="bg-light" data-image-src="./assets/img/photos/bg22.png">
+  <footer class="bg-light" style="border-top: 2px solid #d1446f; padding-top: 20px;">
     <!-- /.container-card -->
     <div class="container pb-13 pb-md-15">
         <div class=" row gy-6 gy-lg-0">
-      <div class="col-md-4 col-lg-3">
+      <div class="col-md-6 col-lg-6">
         <div class="widget">
-          <img class="mb-4" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
-          <p class="mb-4">© 2021 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+          <img class="mb-4" src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt=""  style="width: 256px;" />
+          <p class="mb-4">© {{date('Y')}} FASBMB. <br class="d-none d-lg-block" />All rights reserved.</p>
           <nav class="nav social ">
             <a href="#"><i class="uil uil-twitter"></i></a>
             <a href="#"><i class="uil uil-facebook-f"></i></a>
@@ -21,25 +21,12 @@
       <div class="col-md-4 col-lg-3">
         <div class="widget">
           <h4 class="widget-title  mb-3">Get in Touch</h4>
-          <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+          <address class="pe-xl-15 pe-xxl-17">Address</address>
           <a href="mailto:#" class="link-body">info@email.com</a><br /> +00 (123) 456 78 90
         </div>
         <!-- /.widget -->
       </div>
       <!-- /column -->
-      <div class="col-md-4 col-lg-3">
-        <div class="widget">
-          <h4 class="widget-title  mb-3">Learn More</h4>
-          <ul class="list-unstyled text-reset mb-0">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Story</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-        <!-- /.widget -->
-      </div>
       <!-- /column -->
       <div class="col-md-12 col-lg-3">
         <div class="widget">
