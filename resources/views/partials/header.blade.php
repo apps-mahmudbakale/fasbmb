@@ -3,7 +3,7 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="{{route('welcome')}}">
-              <img src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt="" style="width: 256px;" />
+              <img src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt="" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas-nav">
@@ -12,29 +12,29 @@
               <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
             </div>
             <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="{{route('welcome')}}"><i class="fa fa-home"></i> Home</a> </li>
-              <li class="nav-item"><a class="nav-link" href="#about"><i class="fa fa-question-circle"></i> About Us</a></li>
-             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"><i class="fa fa-users"></i> Committees</a>
+              <li class="nav-item"><a class="nav-link" href="{{route('welcome')}}"> Home</a> </li>
+              <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Committees</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="">Executive Committee</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Members</a></li>
                </ul>
              </li>
-             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"><i class="fa fa-gavel"></i> Laws</a>
+             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"> Laws</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="">Consititution</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Statutes & By-Laws</a></li>
                </ul>
              </li>
 
-             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"><i class="fa fa-clock"></i> Activities</a>
+             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"> Activities</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="">Conferences</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Courses & Meetings</a></li>
                </ul>
              </li>
 
-             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"><i class="fa fa-briefcase"></i> Resources</a>
+             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Resources</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="">Funding Opportunities</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Resourceful Links</a></li>
