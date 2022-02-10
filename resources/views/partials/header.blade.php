@@ -3,7 +3,7 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="{{route('welcome')}}">
-              <img src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt="" />
+              <img src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt=""  style="width: 540px;" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas-nav">
@@ -16,7 +16,7 @@
               <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Committees</a>
                <ul class="dropdown-menu">
-                 <li class="nav-item"><a class="dropdown-item" href="">Executive Committee</a></li>
+                 <li class="nav-item"><a class="dropdown-item" href="{{route('executives')}}">Executive Committee</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Members</a></li>
                </ul>
              </li>

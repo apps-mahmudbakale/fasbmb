@@ -9,7 +9,7 @@
               <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
                 <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
                   <h1 class="display-2 mb-4 me-xl-5 me-xxl-0" style="font-size: 26px; text-align: center;">Welcome to Federation of African Societies of Biochemistry and Molecular Biology</h1>
-                  <p class="lead  lh-sm mb-7 pe-xxl-15" style="font-size: 21px; text-align: justify;">We aim to bring together African biochemists/molecular biologists through one national association</p>
+                  <p class="lead  lh-sm mb-7 pe-xxl-15" style="font-size: 21px; text-align:center;">We aim to bring together African biochemists/molecular biologists through one national association</p>
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">
@@ -174,12 +174,33 @@
         <!-- /.owl-carousel -->
         <!--/.row -->
         <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">
+            <h2 class="fs-16 text-uppercase text-center text-gradient gradient-1 mb-3" style="font-size: 24px;">Contact Us</h2>
           <div class="col-lg-6">
-            <figure><img class="w-auto" src="{{asset('img/illustrations/3d3.png')}}" srcset="{{asset('img/illustrations/3d3@2x.png')}}" alt="" /></figure>
+            <form action="" class="row">
+              <div class="form-group col-lg-6">
+              <label>Name</label>
+              <input type="text" class="form-control">
+            </div>
+              <div class="form-group col-lg-6">
+              <label>Email</label>
+              <input type="text" class="form-control">
+            </div>
+              <div class="form-group">
+              <label>Phone</label>
+              <input type="text" class="form-control">
+            </div>
+              <div class="form-group">
+              <label>Message</label>
+              <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+              <div class="form-group">
+              <br>
+              <input type="submit" value="Submit" class="btn btn-success">
+            </div>
+            </form>
           </div>
           <!--/column -->
           <div class="col-lg-5 offset-lg-1">
-            <h2 class="fs-16 text-uppercase text-gradient gradient-1 mb-3">Contact Us</h2>
             <h3 class="display-4 mb-8">Got any questions? Don't hesitate to get in touch.</h3>
             <div class="d-flex flex-row">
               <div>

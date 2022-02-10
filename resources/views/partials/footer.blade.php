@@ -1,10 +1,10 @@
-  <footer class="bg-light" style="border-top: 2px solid #d1446f; padding-top: 20px;">
+  <footer class="bg-light" style="border-top: 2px solid #336633; padding-top: 20px;">
     <!-- /.container-card -->
     <div class="container pb-13 pb-md-15">
         <div class=" row gy-6 gy-lg-0">
       <div class="col-md-6 col-lg-6">
         <div class="widget">
-          <img class="mb-4" src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt=""  style="width: 256px;" />
+          <img class="mb-4" src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt=""  style="width: 356px;" />
           <p class="mb-4">© {{date('Y')}} FASBMB. <br class="d-none d-lg-block" />All rights reserved.</p>
           <nav class="nav social ">
             <a href="#"><i class="uil uil-twitter"></i></a>
