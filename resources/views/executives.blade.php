@@ -16,7 +16,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Lawal Bilbis</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> President</p>
@@ -34,7 +34,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. A. Pual Kappo</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Deputy President</p>
@@ -52,7 +52,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Khalid Fares</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Treasurer</p>
@@ -70,7 +70,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Stanley Mukanganyama</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> A/Secretary General</p>
@@ -88,7 +88,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Dr. Nyarai D. Soko</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Meetings Counselor </p>
@@ -106,7 +106,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Cyprian Katongo</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Committee Member </p>
@@ -124,7 +124,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">DR. Sahar Gamil</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Committee Member</p>
@@ -142,7 +142,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Dr. Clarence Mangera</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Committee Member </p>
@@ -160,7 +160,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. NEERGHEEN Vidushi Shradha</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Committee Memeber</p>
@@ -178,7 +178,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Fetchall Taoufiq</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Committee Member</p>
@@ -196,7 +196,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Dr. Chala Kenenisa </h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Committee Member </p>
@@ -214,7 +214,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/t3.jpg')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Iqbal Parker</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Ex officio/IUBMB SG</p>
