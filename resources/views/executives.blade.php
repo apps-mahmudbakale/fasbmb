@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="wrapper bg-light">
+    <section class="wrapper bg-soft-primary">
       <div class="container py-14 py-md-16">
         <div class="row mb-3">
           <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
-            <h2 class="fs-15 text-uppercase text-muted mb-3">Executive Committee</h2>
+            <h2 class="fs-19 text-uppercase text-dark mb-3">Executive Committee</h2>
           {{--   <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Think unique and be innovative. Make a difference with Sandbox.</h3> --}}
           </div>
           <!--/column -->
