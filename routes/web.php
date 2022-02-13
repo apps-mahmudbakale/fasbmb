@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/executive-committee', function () {
     return view('executives');
 })->name('executives');
+
+Route::get('/funding-oppurtunities', function () {
+    return view('oppurtunities');
+})->name('oppurtunities');

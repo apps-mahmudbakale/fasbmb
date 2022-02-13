@@ -36,7 +36,7 @@
 
              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Resources</a>
                <ul class="dropdown-menu">
-                 <li class="nav-item"><a class="dropdown-item" href="">Funding Opportunities</a></li>
+                 <li class="nav-item"><a class="dropdown-item" href="{{route('oppurtunities')}}">Funding Opportunities</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Resourceful Links</a></li>
                  <li class="nav-item"><a class="dropdown-item" href="">Publications</a></li>
                </ul>
