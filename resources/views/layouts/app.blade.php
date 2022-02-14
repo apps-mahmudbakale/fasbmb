@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="FASBMB - Federation of African Societies of Biochemistry and Molecular Biology">
   <meta name="keywords" content="FASBMB - Federation of African Societies of Biochemistry and Molecular Biology">
-  <meta name="author" content="Mahmud Bakale">
+  <meta name="author" content="Mahmud Bakale, Mudassir Ahmad Adili">
   <title>FASBMB - Federation of African Societies of Biochemistry and Molecular Biology</title>
   <link rel="shortcut icon" href="{{asset('img/fasbmb.jpg')}}">
   <link rel="stylesheet" href="{{asset('css/app.css')}}">

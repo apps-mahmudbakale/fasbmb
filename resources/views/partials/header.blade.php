@@ -3,7 +3,7 @@
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
             <a href="{{route('welcome')}}">
-              <img src="{{asset('img/logo.png')}}" srcset="{{asset('img/logo.png')}}" alt=""  style="width: 540px;" />
+              <img src="{{asset('img/logo.png')}}" class="logo" srcset="{{asset('img/logo.png')}}" alt="" />
             </a>
           </div>
           <div class="navbar-collapse offcanvas-nav">

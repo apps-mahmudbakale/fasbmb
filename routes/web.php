@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\ConstitutionController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +28,19 @@ Route::get('/executive-committee', function () {
 Route::get('/funding-oppurtunities', function () {
     return view('oppurtunities');
 })->name('oppurtunities');
+
+Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], function ()
+{
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::resource('users', UserController::class);
+    Route::resource('roles', RoleController::class);
+    Route::get('changePassword', [UserController::class, 'changepasswordForm'])->name('password.change');
+    Route::post('changepassword', [UserController::class, 'changepassword'])->name('change.password');
+    Route::resource('constitution', ConstitutionController::class);
+
+
+});

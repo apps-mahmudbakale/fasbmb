@@ -14,7 +14,7 @@
                 <!--/column -->
                 <div class="col-lg-6">
                  {{--  <img class="img-fluid mb-n18" src="{{asset('img/biology-dna-svgrepo-com.svg')}}" srcset="{{asset('img/biology-dna-svgrepo-com.svg')}}" data-cue="fadeIn" data-delay="300" alt="" /> --}}
-                 <img class="img-fluid mb-n18" src="{{asset('img/biology-svgrepo-com.svg')}}" srcset="{{asset('img/biology-svgrepo-com.svg')}}" data-cue="fadeIn" data-delay="300" alt="" style="width: 405px; margin-left: 115px; transform: rotate(150deg);" />
+                 <img class="img-fluid mb-n18 hero" src="{{asset('img/biology-svgrepo-com.svg')}}" srcset="{{asset('img/biology-svgrepo-com.svg')}}" data-cue="fadeIn" data-delay="300" alt=""  />
                   {{-- <img class="img-fluid mb-n18" src="{{asset('img/dna.png')}}" srcset="{{asset('img/dna.png')}}" data-cue="fadeIn" data-delay="300" alt="" /> --}}
                 </div>
                 </div>
