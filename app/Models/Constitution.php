@@ -12,6 +12,6 @@ class Constitution extends Model
     protected $fillable = [
         'name',
         'content',
-        'sliug',
+        'slug',
     ];
 }

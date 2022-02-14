@@ -29,9 +29,7 @@
 	              <thead>
 	                <tr>
 	                  <th scope="col">#</th>
-	                  <th scope="col">Role</th>
-	                  <th scope="col">Location</th>
-	                  <th scope="col">Quantity</th>
+	                  <th scope="col">Chapter</th>
 	                  <th scope="col">Date Created</th>
 	                  <th scope="col">Action</th>
 	                </tr>
@@ -40,17 +38,15 @@
 	              	@foreach($consts as $key => $const)
 	                <tr>
 	                  <th scope="row">{{$loop->iteration}}</th>
-	                  <td>{{$const->role}}</td>
-	                  <td>{{$const->location}}</td>
-	                  <td>{{$const->qty}}</td>
+	                  <td>{{$const->name}}</td>
 	                  <td>{{$const->created_at->diffForHumans()}}</td>
 	                  <td class="btn-group">
 	                  	@can('read-users')
-	                  	<a href="{{route('admin.jobs.edit', $const->id)}}" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+	                  	<a href="{{route('admin.constitution.edit', $const->id)}}" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
 	                  	@endcan
 	                  	@can('delete-users')
 	                  	<a href="" class="btn btn-danger" onclick="event.preventDefault(); document.getElementById('del#{{$const->id}}').submit();"><i class="bi bi-trash"></i></a>
-	                  	<form id="del#{{$const->id}}" action="{{ route('admin.jobs.destroy', $const->id) }}" method="POST" onsubmit="return confirm('Are you sure');" style="display: inline-block;">
+	                  	<form id="del#{{$const->id}}" action="{{ route('admin.constitution.destroy', $const->id) }}" method="POST" onsubmit="return confirm('Are you sure');" style="display: inline-block;">
                           <input type="hidden" name="_method" value="DELETE">
                           <input type="hidden" name="_token" value="{{ csrf_token() }}">
                       </form>

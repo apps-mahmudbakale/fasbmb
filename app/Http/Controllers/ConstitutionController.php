@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Constitution;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ConstitutionController extends Controller
 {
@@ -17,6 +18,32 @@ class ConstitutionController extends Controller
         $consts = Constitution::all();
 
         return view('admin.constitutions.index', compact('consts'));
+    }
+
+
+    public function view()
+    {
+        $slug = 'chapter-one';
+        $chapter = Constitution::where('slug', $slug)->firstOrFail();
+
+        $previous = Constitution::where('id', '<', $chapter->id)->orderBy('id','desc')->first();
+
+        $next = Constitution::where('id', '>', $chapter->id)->orderBy('id')->first();
+
+
+        return view('constitution', ['chapter' => $chapter, 'previous' => $previous, 'next' => $next]);
+    }
+
+    public function viewChapter($slug)
+    {
+        $chapter = Constitution::where('slug', $slug)->firstOrFail();
+
+        $previous = Constitution::where('id', '<', $chapter->id)->orderBy('id','desc')->first();
+
+        $next = Constitution::where('id', '>', $chapter->id)->orderBy('id')->first();
+
+
+        return view('constitution', ['chapter' => $chapter, 'previous' => $previous, 'next' => $next]);
     }
 
     /**
@@ -37,7 +64,13 @@ class ConstitutionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $const = Constitution::create([
+                'name' => $request->name,
+                'content' => $request->content,
+                'slug' => Str::slug($request->name,'-'),
+        ]);
+
+        return redirect()->route('admin.constitution.index')->with('success', 'Chapter Added');
     }
 
     /**

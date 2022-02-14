@@ -29,6 +29,9 @@ Route::get('/funding-oppurtunities', function () {
     return view('oppurtunities');
 })->name('oppurtunities');
 
+Route::get('constitution/', [App\Http\Controllers\ConstitutionController::class, 'view'])->name('constitution.view');
+Route::get('constitution/{slug}', [App\Http\Controllers\ConstitutionController::class, 'viewChapter'])->name('constitution.view.chapter');
+
 Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
