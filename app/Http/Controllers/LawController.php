@@ -23,17 +23,17 @@ class LawController extends Controller
 
     public function view()
     {
-        $slug = '';
+        $slug = 'membership-and-delegates';
         $chapter = Law::where('slug', $slug)->firstOrFail();
 
-        // $previous = Law::where('id', '<', $chapter->id)->orderBy('id','desc')->first();
+        $previous = Law::where('id', '<', $chapter->id)->orderBy('id','desc')->first();
 
-        // $next = Law::where('id', '>', $chapter->id)->orderBy('id')->first();
+        $next = Law::where('id', '>', $chapter->id)->orderBy('id')->first();
 
 
-        // return view('laws', ['chapter' => $chapter, 'previous' => $previous, 'next' => $next]);
+        return view('laws', ['chapter' => $chapter, 'previous' => $previous, 'next' => $next]);
 
-        return view('laws');
+        
     }
 
     public function viewChapter($slug)

@@ -226,7 +226,7 @@
               </div>
               <div>
                 <h5 class="mb-0">E-mail</h5>
-                <p class="mb-0"><a href="mailto:mail@email.com" class="link-body">mail@email.com</a></p>
+                <p class="mb-0">{{-- <a href="mailto:mail@email.com" class="link-body">mail@email.com</a> --}}</p>
               </div>
             </div>
           </div>

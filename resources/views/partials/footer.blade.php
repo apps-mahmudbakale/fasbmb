@@ -22,7 +22,7 @@
         <div class="widget">
           <h4 class="widget-title  mb-3">Get in Touch</h4>
           <address class="pe-xl-15 pe-xxl-17">Address</address>
-          <a href="mailto:#" class="link-body">info@email.com</a><br /> +00 (123) 456 78 90
+          {{-- <a href="mailto:#" class="link-body">info@email.com</a><br /> +00 (123) 456 78 90 --}}
         </div>
         <!-- /.widget -->
       </div>
