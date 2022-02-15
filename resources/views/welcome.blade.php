@@ -87,7 +87,7 @@
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Ligula tristique quis risus</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Journal One</a></h2>
               </div>
               <!-- /.post-header -->
               <div class="post-footer">
@@ -110,7 +110,7 @@
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Nullam id dolor elit id nibh</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Journal Two</a></h2>
               </div>
               <!-- /.post-header -->
               <div class="post-footer">
@@ -133,7 +133,7 @@
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Ultricies fusce porta elit</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Journal Three</a></h2>
               </div>
               <!-- /.post-header -->
               <div class="post-footer">
@@ -156,7 +156,7 @@
                 </figcaption>
               </figure>
               <div class="post-header">
-                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Morbi leo risus porta eget</a></h2>
+                <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Journal Four</a></h2>
               </div>
               <div class="post-footer">
                {{--  <ul class="post-meta">
@@ -217,7 +217,7 @@
               </div>
               <div>
                 <h5 class="mb-0">Phone</h5>
-                <p>00 (123) 456 78 90</p>
+                <p></p>
               </div>
             </div>
             <div class="d-flex flex-row">
