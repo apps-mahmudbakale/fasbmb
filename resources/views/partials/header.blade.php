@@ -23,7 +23,8 @@
              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!"> Laws</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="{{route('constitution.view')}}">Consititution</a></li>
-                 <li class="nav-item"><a class="dropdown-item" href="">Statutes & By-Laws</a></li>
+                 <li class="nav-item"><a class="dropdown-item" href="{{route('statute.view')}}">Statutes</a></li>
+                 <li class="nav-item"><a class="dropdown-item" href="{{route('laws.view')}}">By-Laws</a></li>
                </ul>
              </li>
 

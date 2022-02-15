@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\ConstitutionController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LawController;
 use App\Http\Controllers\RoleController;
+use App\Http\Controllers\StatuteController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,11 +28,26 @@ Route::get('/executive-committee', function () {
 })->name('executives');
 
 Route::get('/funding-oppurtunities', function () {
-    return view('oppurtunities');
+    return view('funding.index');
 })->name('oppurtunities');
+
+Route::get('/funding-oppurtunities/north-west-university', function () {
+    return view('funding.nwu');
+})->name('nwu');
 
 Route::get('constitution/', [App\Http\Controllers\ConstitutionController::class, 'view'])->name('constitution.view');
 Route::get('constitution/{slug}', [App\Http\Controllers\ConstitutionController::class, 'viewChapter'])->name('constitution.view.chapter');
+
+
+Route::get('statute/', [App\Http\Controllers\StatuteController::class, 'view'])->name('statute.view');
+Route::get('statute/{slug}', [App\Http\Controllers\StatuteController::class, 'viewChapter'])->name('statute.view.chapter');
+
+
+Route::get('laws/', [LawController::class, 'view'])->name('laws.view');
+Route::get('laws/{slug}', [App\Http\Controllers\LawController::class, 'viewChapter'])->name('laws.view.chapter');
+
+Route::get('bylaws/', [App\Http\Controllers\LawController::class, 'view'])->name('laws.view');
+Route::get('bylaws/{slug}', [App\Http\Controllers\LawController::class, 'viewChapter'])->name('laws.view.chapter');
 
 Auth::routes();
 
@@ -44,6 +61,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
     Route::get('changePassword', [UserController::class, 'changepasswordForm'])->name('password.change');
     Route::post('changepassword', [UserController::class, 'changepassword'])->name('change.password');
     Route::resource('constitution', ConstitutionController::class);
-
+    Route::resource('statute', StatuteController::class);
+    Route::resource('law', LawController::class);
 
 });

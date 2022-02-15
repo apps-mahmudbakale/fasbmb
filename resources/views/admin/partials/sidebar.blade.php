@@ -40,8 +40,13 @@
             </a>
           </li>
           <li>
-            <a href="{{route('admin.roles.index')}}">
-              <i class="bi bi-circle"></i><span>Statutes & By-Laws</span>
+            <a href="{{route('admin.statute.index')}}">
+              <i class="bi bi-circle"></i><span>Statutes</span>
+            </a>
+          </li>
+          <li>
+            <a href="{{route('admin.law.index')}}">
+              <i class="bi bi-circle"></i><span>By-Laws</span>
             </a>
           </li>
         </ul>
