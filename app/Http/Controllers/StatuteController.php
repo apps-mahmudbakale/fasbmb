@@ -115,6 +115,8 @@ class StatuteController extends Controller
      */
     public function destroy(Statute $statute)
     {
-        //
+        $statute->delete();
+
+        return back();
     }
 }

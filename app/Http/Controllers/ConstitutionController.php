@@ -115,6 +115,8 @@ class ConstitutionController extends Controller
      */
     public function destroy(Constitution $constitution)
     {
-        //
+        $constitution->delete();
+
+        return back();
     }
 }

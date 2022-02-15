@@ -117,6 +117,8 @@ class LawController extends Controller
      */
     public function destroy(Law $law)
     {
-        //
+        $law->delete();
+
+        return back();
     }
 }
