@@ -15,41 +15,41 @@
           <table class="table table-bordered table-striped">
            <tbody>
             <tr>
-                   <td width="17%"><a href="http://www.iubmb.org/" target="_blank"><strong>IUBMB</strong></a></td>
+                   <td width="17%"><strong>IUBMB</strong></td>
                    <td width="83%">International Union of Biochemistry and Molecular
                      Biology</td>
-                     <td width="17%"><a href="http://www.iubmb.org/" class="btn btn-primary btn-sm" target="_blank"><i class="fa fa-eye"></i></a></td>
+                     <td width="17%"><a href="http://www.iubmb.org/" class="btn btn-primary btn-sm" target="_blank"><i class="fa fa-link"></i></a></td>
                  </tr>
                  <tr>
-                   <td><a href="http://www.embo.org" target="_blank"><strong>EMBO</strong></a></td>
+                   <td><strong>EMBO</strong></td>
                    <td>European Molecular Biology Organization</td>
-                      <td><a href="http://www.embo.org" target="_blank" class="btn btn-primary btn-sm" ><i class="fa fa-eye"></i></a></td>
+                      <td><a href="http://www.embo.org" target="_blank" class="btn btn-primary btn-sm" ><i class="fa fa-link"></i></a></td>
                  </tr>
                  <tr>
-                   <td><a href="http://www.sasbmb.org.za" target="_blank"><strong>SASBMB</strong></a></td>
+                   <td><strong>SASBMB</strong></td>
                    <td>South African Society of Biochemistry and Molecular
                      Biology</td>
-                      <td><a href="http://www.sasbmb.org.za" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a></td>
+                      <td><a href="http://www.sasbmb.org.za" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-link"></i></a></td>
                  </tr>
                  <tr>
-                   <td><a href="http://www.bic.nus.edu.sg/faobmb/home.html" target="_blank"><strong>FAOBMB</strong></a></td>
+                   <td><strong>FAOBMB</strong></td>
                    <td>Federation of Asian and Oceanic Biochemists &amp; Molecular Biologists</td>
-                    <td><a href="http://www.bic.nus.edu.sg/faobmb/home.html" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a></td>
+                    <td><a href="http://www.bic.nus.edu.sg/faobmb/home.html" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-link"></i></a></td>
                  </tr>
                  <tr>
-                   <td><a href="http://pabmb.fcien.edu.uy/main1.htm" target="_blank"><strong>PABMB</strong></a></td>
+                   <td><strong>PABMB</strong></td>
                    <td>Panamerican Association for Biochemistry and Molecular Biology</td>
-                    <td><a href="http://pabmb.fcien.edu.uy/main1.htm" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a></td>
+                    <td><a href="http://pabmb.fcien.edu.uy/main1.htm" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-link"></i></a></td>
                  </tr>
                  <tr>
-                   <td><a href="http://www.faseb.org/" target="_blank"><strong>FASEB</strong></a></td>
+                   <td><strong>FASEB</strong></td>
                    <td>Federation of American Societies for Experimental Biology</td>
-                     <td><a href="http://www.faseb.org/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a></td>
+                     <td><a href="http://www.faseb.org/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-link"></i></a></td>
                  </tr>
                  <tr>
-                   <td><a href="http://www.febs.org/" target="_blank"><strong>FEBS</strong></a></td>
+                   <td><strong>FEBS</strong></td>
                    <td>Federation of European Biochemical Societies</td>
-                    <td><a href="http://www.febs.org/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></a></td>
+                    <td><a href="http://www.febs.org/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-link"></i></a></td>
                  </tr>
               </tbody>
           </table>
