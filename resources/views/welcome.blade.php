@@ -78,7 +78,7 @@
           <!-- /column -->
         </div>
         <!-- /.row -->
-        <div class="carousel owl-carousel blog grid-view mb-17 mb-md-20" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
+{{--         <div class="carousel owl-carousel blog grid-view mb-17 mb-md-20" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "2"}, "1200":{"items": "3"}}'>
           <div class="item">
             <article>
               <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img src="{{asset('img/journal.png')}}" alt="" /></a>
@@ -135,7 +135,7 @@
               <div class="post-header">
                 <h2 class="post-title h3 mb-3"><a class="link-dark" href="">Journal Three</a></h2>
               </div>
-              <!-- /.post-header -->
+              /.post-header
               <div class="post-footer">
                 {{-- <ul class="post-meta">
                   <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2021</span></li>
@@ -170,7 +170,7 @@
             <!-- /article -->
           </div>
           <!-- /.item -->
-        </div>
+        </div> --}}
         <!-- /.owl-carousel -->
         <!--/.row -->
         <div class="row gx-3 gy-10 mb-15 mb-md-18 align-items-center">

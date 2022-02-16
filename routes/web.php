@@ -35,6 +35,10 @@ Route::get('/funding-oppurtunities/north-west-university', function () {
     return view('funding.nwu');
 })->name('nwu');
 
+Route::get('/resourceful-links', function () {
+    return view('resources');
+})->name('links');
+
 Route::get('constitution/', [App\Http\Controllers\ConstitutionController::class, 'view'])->name('constitution.view');
 Route::get('constitution/{slug}', [App\Http\Controllers\ConstitutionController::class, 'viewChapter'])->name('constitution.view.chapter');
 
@@ -43,8 +47,6 @@ Route::get('statute/', [App\Http\Controllers\StatuteController::class, 'view'])-
 Route::get('statute/{slug}', [App\Http\Controllers\StatuteController::class, 'viewChapter'])->name('statute.view.chapter');
 
 
-Route::get('laws/', [LawController::class, 'view'])->name('laws.view');
-Route::get('laws/{slug}', [App\Http\Controllers\LawController::class, 'viewChapter'])->name('laws.view.chapter');
 
 Route::get('bylaws/', [App\Http\Controllers\LawController::class, 'view'])->name('laws.view');
 Route::get('bylaws/{slug}', [App\Http\Controllers\LawController::class, 'viewChapter'])->name('laws.view.chapter');

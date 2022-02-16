@@ -70,7 +70,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/Prof. S. Mukanganyama.jpg')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Prof. Stanley Mukanganyama</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> A/Secretary General</p>
@@ -88,7 +88,7 @@
             <div class="position-relative">
               <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
               <div class="card">
-                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
+                <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/Nyarai.jpg')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
                   <h4 class="mb-1">Dr. Nyarai D. Soko</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Meetings Counselor </p>
