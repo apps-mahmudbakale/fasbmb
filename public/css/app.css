@@ -31,3 +31,7 @@
 
     .hero {margin-left: 0px; transform: rotate(150deg);}
 }
+
+@media only screen and (max-width: 768px){
+    .fund-img{ width: 280px; }
+}

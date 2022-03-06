@@ -11,7 +11,7 @@
         </div>
         <div class="row">
           <div class="col-md-2 col-lg-2 col-xl-2 col-xxl-2 text-center">
-           <img src="{{asset('img/OWSD.png')}}" alt=""/>
+           <img src="{{asset('img/OWSD.png')}}" class="fund-img" alt=""/>
            <p></p>
           </div>
           <div class="col-gutter"></div>
