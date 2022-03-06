@@ -32,6 +32,29 @@
         </div>
           <!-- /column -->
         </div>
+        <p></p>
+          <div class="col-md-6 col-lg-6 col-xl-6 mx-auto text-center">
+            <div class="card">
+             <figure class="card-img-top"> <img src="{{asset('img/OWSD.png')}}" alt="" style="width: 380px;" /></figure> 
+            <div class="card-body">
+            <h2 class="display-4 mb-3" style="font-size: 16px;">CALL FOR APPLICATION FOR THE 2022 OWSD PhD FELLOWSHIP.</h2>
+            <p class="lead mb-6 px-xl-10 px-xxl-15" style="font-size: 16px;">The Fellowship is offered to women scientists from Science and Technology Lagging Countries to undertake PhD research in the natural, engineering and information technology sciences at a host institute in the South.</p>
+            <a href="{{route('owsd')}}" class="btn btn-primary rounded">Read More</a>
+          </div>
+        </div>
+          <!-- /column -->
+        </div>
+          <div class="col-md-6 col-lg-6 col-xl-6 mx-auto text-center">
+            <div class="card">
+             <figure class="card-img-top"> <img src="{{asset('img/ntu.jpg')}}" alt="" style="width: 360px;" /></figure> 
+            <div class="card-body">
+            <h2 class="display-4 mb-3" style="font-size: 16px;">CALL FOR APPLICATIONS NTU PRESIDENTIAL POSTDOCTORAL FELLOWSHIP 2022</h2>
+            <p class="lead mb-6 px-xl-10 px-xxl-15" style="font-size: 16px;">The Presidential Postdoctoral Fellowship (PPF), aims to provide the opportunity for outstanding early career researchers from Singapore and around the world, to conduct independent investigations in any discipline at NTU.</p>
+            <a href="{{route('ntu')}}" class="btn btn-primary rounded">Read More</a>
+          </div>
+        </div>
+          <!-- /column -->
+        </div>
         <!-- /.row -->
       </div>
       <!-- /.container -->

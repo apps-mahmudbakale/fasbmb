@@ -35,6 +35,14 @@ Route::get('/funding-oppurtunities/north-west-university', function () {
     return view('funding.nwu');
 })->name('nwu');
 
+Route::get('/funding-oppurtunities/Call-for-Applications-for-the-2022-OWSD-PhD-Fellowships', function () {
+    return view('funding.owsd');
+})->name('owsd');
+
+Route::get('/funding-oppurtunities/Call-For-Applications-NTU-Presidential-Postdoctoral-Fellowship-2022', function () {
+    return view('funding.ntu');
+})->name('ntu');
+
 Route::get('/resourceful-links', function () {
     return view('resources');
 })->name('links');
