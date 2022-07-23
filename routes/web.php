@@ -43,9 +43,25 @@ Route::get('/funding-oppurtunities/Call-For-Applications-NTU-Presidential-Postdo
     return view('funding.ntu');
 })->name('ntu');
 
+Route::get('/The-International-Union-of-Biochemistry-and-Molecular-Biology-(IUBMB)-Fellowship', function () {
+    return view('funding.iubmb-fellowship');
+})->name('iubmb-fellowship');
+
 Route::get('/resourceful-links', function () {
     return view('resources');
 })->name('links');
+
+Route::get('/annoucement', function () {
+    return view('annoucements.index');
+})->name('annoucements.index');
+
+Route::get('/annoucements/Africa-Great-Decode-Webinar', function () {
+    return view('annoucements.africa-decode-webinar');
+})->name('annoucements.africa-decode-webinar');
+
+Route::get('/annoucements/IUBMB-Trainee-Initiative-Leadership-Committee', function () {
+    return view('annoucements.trainee-initiative');
+})->name('annoucements.trainee-initiative');
 
 Route::get('constitution/', [App\Http\Controllers\ConstitutionController::class, 'view'])->name('constitution.view');
 Route::get('constitution/{slug}', [App\Http\Controllers\ConstitutionController::class, 'viewChapter'])->name('constitution.view.chapter');

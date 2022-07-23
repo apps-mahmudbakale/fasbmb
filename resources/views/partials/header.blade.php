@@ -13,7 +13,7 @@
             </div>
             <ul class="navbar-nav">
               <li class="nav-item"><a class="nav-link" href="{{route('welcome')}}"> Home</a> </li>
-              <li class="nav-item"><a class="nav-link" href="index.php#about">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{route('annoucements.index')}}">Announcements</a></li>
              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#!">Committees</a>
                <ul class="dropdown-menu">
                  <li class="nav-item"><a class="dropdown-item" href="{{route('executives')}}">Executive Committee</a></li>
