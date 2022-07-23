@@ -36,7 +36,7 @@
               <div class="card">
                 <figure class="card-img-top"><img class="img-fluid" src="{{asset('img/avatars/avatar.png')}}" alt="" /></figure>
                 <div class="card-body px-6 py-5">
-                  <h4 class="mb-1">Prof. A. Pual Kappo</h4>
+                  <h4 class="mb-1">Prof. A. Paul Kappo</h4>
                   <p class="mb-0"><i class="fa fa-briefcase"></i> Deputy President</p>
                   <p class="mb-0"><i class="fa fa-globe"></i> South Africa</p>
                   <p class="mb-0"><i class="fa fa-envelope"></i> akappo@uj.ac.za</p>
